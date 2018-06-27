@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Link } from "react-router-dom";
 import Home from "../home";
 import About from "../about";
+import News from "../news";
 import Signin from "../signin";
 import Signup from "../signup";
 import Authenticator from "../authenticator";
@@ -47,6 +48,7 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route exact path="/about-us" component={About} />
       <Route exact path="/" component={Authenticator} />
+      <Route exact path="/" component={News} />
       <Route
         exact
         path="/companies/:companyId"

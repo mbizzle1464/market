@@ -46,7 +46,8 @@ class SignIn extends React.Component {
                 onChange={evt => this.onChange('password', evt.target.value)}
                 placeholder='password'
               />
-              <div onClick={this.signIn}>                
+              <div onClick={this.signIn}> 
+              <p>Enter</p>               
               </div>
             </div>
           )

@@ -60,6 +60,7 @@ class SignUp extends React.Component {
                 onChange={evt => this.onChange('phone_number', evt.target.value)}
               />
               <div onClick={this.signUp}>
+              <p>Enter</p> 
               </div>
             </div>
           )
